@@ -1,0 +1,43 @@
+// Form
+.image-form {
+  margin-top: 40px;
+}
+#image-language-input{
+  padding-left: 3rem;
+}
+
+.loader-indicator{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.light, .dark{
+
+  text-align: center;
+}
+.light{
+  color: black;
+}
+.dark{
+  color: lightgoldenrodyellow;
+}
+.image-holder{
+  display: flex;
+  justify-content: center;
+  height: 120px;
+
+
+  img {
+    //width: 150px;
+    height: 120px;
+
+    //object-fit: cover;
+  }
+}
+.hidden{
+  display: none;
+}
+#upload-image-wrapper{
+  display: none;
+}
